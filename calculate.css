@@ -1,0 +1,98 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+
+    background-color: orange;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.header div {
+    font-size: 40px;
+}
+
+body {
+    margin: 0px;
+
+    background-color: rgb(242, 238, 197);
+
+    overflow-y: hidden;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sections {
+    background-color: rgb(104, 127, 90);
+
+    border-radius: 35px;
+
+    width: 30%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+
+    color: rgb(245, 206, 133);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.input_field {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    flex: 1;
+    color: bisque;
+}
+
+select {
+    flex: 1;
+    width: 100%;
+
+    border-radius: 3px;
+
+    margin: 3px;
+    border: 0px;
+
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    flex: 1;
+    width: 100%;
+
+    border-radius: 3px;
+
+    margin: 3px;
+    border: 0px;
+
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+    display: flex;
+    bottom: 0px;
+    justify-content: space-between;
+
+    padding: 20px;
+
+    background-color: orange;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.footer div {
+    font-size: 40px;
+}

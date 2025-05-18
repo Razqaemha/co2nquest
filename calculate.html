@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="calculate.css">
+
+<head>
+    <title>Co2nQuest</title>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div>Logo</div>
+        <div>Co2nQuest</div>
+        <div>Search</div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+
+        <form>
+            <div class="sections" id="transportation">
+
+
+                <div>
+                    <h1>Transportation</h1>
+                </div>
+
+                <div class="input_field">
+                    <label for="type">Transport Type:</label>
+                    <select name="type">
+                        <option value="default">Select Transport Type</option>
+                        <option value="lrt">LRT (Light Rail Transit)</option>
+                        <option value="mrt">MRT (Mass Rapid Transit)</option>
+                        <option value="ktm">KTM Komuter</option>
+                        <option value="monorail">KL Monorail</option>
+                        <option value="brt">BRT Sunway Rail</option>
+                        <option value="bus">Rapid Bus</option>
+                        <option value="grab">Grab Car</option>
+                        <option value="taxi">Taxi</option>
+                        <option value="personal">Personal Car</option>
+                        <option value="motor">Motorcycle</option>
+                    </select>
+                </div>
+
+                <div class="input_field">
+                    <label for="distance">Daily Distance (Km):</label>
+                    <input type="number" name="distance" value="0">
+                </div>
+
+                <div class="input_field">
+                    <label for="days">Number of days travelled weekly:</label>
+                    <input type="number" name="days" value="0">
+                </div>
+
+
+
+            </div>
+
+            <br>
+
+            <div class="sections" id="home_energy">
+                <div>
+                    <h1>Home Energy</h1>
+                </div>
+
+                <div class="input_field">
+                    <label for="electric">Monthly Electrical Usage (KWh):</label>
+                    <input type="number" name="electric" value="0">
+                </div>
+
+                <div class="input_field">
+                    <label for="gas">Gas Usage (units):</label>
+                    <input type="number" name="gas" value="0">
+                </div>
+
+
+                <div class="input_field">
+                    <label for="people">Number of People in Household:</label>
+                    <input type="number" name="people" value="0">
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="sections" id="lifestyle">
+                <div>
+                    <h1>Lifestyle</h1>
+                </div>
+
+                <div class="input_field">
+                    <label for="diet">Diet Type:</label>
+                    <select name="diet">
+                        <option value="default">Select diet type</option>
+                        <option value="mostmeat">Meat in most meals</option>
+                        <option value="meatsome">Meat a few times a week</option>
+                        <option value="pescatarian">Pescatarian</option>
+                        <option value="vegetarian">Vegetarian</option>
+                        <option value="vegan">Vegan</option>
+                    </select>
+                </div>
+
+                <div class="input_field">
+                    <label for="flights">Flights per Year:</label>
+                    <input type="number" name="flights" value="0">
+                </div>
+
+                <div class="input_field">
+                    <label for="shopping">Shopping Habits:</label>
+                    <select name="shopping">
+                        <option value="default">Select shopping habit</option>
+                        <option value="minimal">Essentials only</option>
+                        <option value="average">Average</option>
+                        <option value="frequent">Frequent shopper</option>
+                    </select>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="footer">
+
+        <div>Calculator</div>
+        <div>Heart</div>
+        <div>Account</div>
+
+    </div>
+
+</body>
+
+</html>
